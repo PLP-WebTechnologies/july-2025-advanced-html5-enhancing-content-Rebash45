@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <hr>
+    <h3>First Semester Courses</h3>
+    <table border="1" width="100%" height="50%">
+        <tr>
+            <th>Course Code</th>
+            <th>Course Title</th>
+            <th>Course Unit</th>
+        </tr>
+        <tr>
+            <td>COS 201</td>
+            <td>Computer Programming 1 </td>
+            <td> 3 </td>
+        </tr>
+        <tr>
+            <td>MAT 211</td>
+            <td> Differential Equation</td> </td>
+            <td> 3 </td>
+        </tr>
+        <tr>
+            <td>CSC 203</td>
+            <td>Discrete Structures </td>
+            <td> 3 </td>
+        </tr>
+        <tr>
+            <td>IFT 201</td>
+            <td>Digital Logic Gate </td>
+            <td> 2 </td>
+        </tr>
+    </table>
+    <h2> Second semester courses</h2>
+   <p> Not yet registered. fill in your details using this form to register for second semester courses.</p>
+   <form action="">
+    <label for="name">Name:</label> <input type="text" name="username" placeholder="Enter your name" required><br>
+    <br>
+    <label for="level">Level:</label> <input type="number" name="level" max="500" minlength="100" placeholder="100l...." required><br>
+    <br>
+    <label for="semester">Semester: </label>
+    <select name="semester" required>
+    <option value="first">First semester</option>
+    <option value="second">Second semester</option>
+</select>
+<button type="submit">Submit</button>
+</form>
+</body>
+</html>
